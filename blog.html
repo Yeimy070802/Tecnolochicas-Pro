@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Desarrollo web">
+    <meta name="description" content="Portafolio de desarrollo web">
+    <meta name="keywords" content="HTML,CSS,JavaScript,React">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo web</title>
+
+<!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="YEIMY.jpg">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!--iconos de boostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+<!--CSS-->
+<link href="styles.css" rel="stylesheet">
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&dislay=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img src="IMAGENES/descarga.png" width="50" alt="Logo de la página web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#desarrollo web">Desarrollo Web</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonios">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--Section Hero-->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen-desarrollador rounded-circle" src="IMAGENES/YEIMY.jpg" alt="YEIMY">          
+            <h1> Hola soy Yeimy Morales Diaz</h1>
+            <h2> Estudiante de I.Q</h2>
+            <!--<h3> ".typeString(' "Primero aprenda informática y toda la teoría. Acto seguido desarrolle un estilo de programación. Luego olvidesé todo eso y solo hackee" <br> -George Carrette')
+"</h3>-->
+            
+            <!--animación con JS -->
+            <h2 class="text-primary mb-4" id="typewriter"></h2>
+        </div>
+        <div class="hero-inferior">
+          <img class="hero-inferior-imagen img-fluid" src="IMAGENES/grupo.jpg" alt="Foto de grupo">
+        </div>
+    </section>
+
+      <!--Sobre Ingenieria quimica-->
+<section id="Ingenieria Quimica" class="Que es Desarrollo Web">
+    <div class="Contenedor">
+        <h2 class="Seccion-titulo"><center>¿Sabes de qué trata la ingeniería química?</center> </h2><br>
+        <p class="seccion-texto"> Estudia los materiales para después transformarlos en productos de consumo.</p>
+    </div>
+</section>
+
+<!--Experiencia-->
+<section class="Experiencia seccion-clara">
+    <div class="container text-center">
+        <div class="row">
+        <!--Desarrollo de experiencias-->
+        <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Ingeniería Química</p>
+            <p>Es el uso de varios tipos de procesos químicos que satisfacen completamente las necesidades de sus clientes a base de estudios estadisticos.</p>
+            <div class="badges-contenedor">
+                <span class="badge text-bg-primary">HTML</span>
+                <span class="badge text-bg-primary">CSS</span>
+                <span class="badge text-bg-primary">JAVA SCRIPT</span>
+                <span class="badge text-bg-primary">PHP</span>
+            </div>
+        </div>
+
+    <!--Articulos-->
+    <div class="columna col-12 col-md-4">
+    <i class=" bi bi-laptop"></i>
+    <p class="experiencia-titulo">¿Qué es balance de energia?</p>
+    <p>El intercambio de energía que tiene un sistema con el ambiente y de los cambios físicos y químicos que puede acarrear dicho balance, que alteran en gran medida este intercambio.</p>
+    <div class="badges-contenedor">
+        <span class="badge text-bg-primary">INTERCAMBIO</span>
+        <span class="badge text-bg-primary">TRANSFERENCIA</span>
+        <span class="badge text-bg-primary">CAMBIOS FISICOS</span>
+    </div>
+    </div>
+
+<!--Estudiante-->
+<div class="columna col-12 col-md-4">
+    <i class="bi bi-laptop"></i>
+    <p class="experiencia-titulo">balance de materia</p>
+    <p>COMPUESTOS</p>
+    <p>CONCENTRACIONES</p>
+    <div class="badges-contenedor">
+        <span class="badge text-bg-primary">RESOLUCIÓN DE PROBLEMAS</span>
+        <span class="badge text-bg-primary">AUTOMATIZACIÓN</span>
+        <span class="badge text-bg-primary">SIMULACIÓN DE PROCESOS</span>
+    </div>
+</div>
+    </div>
+    </div>
+</section>
+
+            <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+        <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+        <!-- Galeria de Proyectos -->
+        <div class="container text-center proyectos-contenedor">
+          <div class="row">
+            <!-- Proyecto 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="IMAGENES/PROYECTO 1.jpeg" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>PROCESO DE DESTILACIÓN</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://diferenciario.com/destilacion-y-extraccion/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="IMAGENES/PROYECTO 2.jpeg" alt="Proyecto 2">
+                <div class="overlay">
+                  <p>PROCESO DE SEPARACIÓN</p>
+                  <div class="iconos-contenedor">
+                    <a href="http://uapas2.bunam.unam.mx/ciencias/metodo_separacion_mezclas/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="IMAGENES/PROYECTO 3.jpeg" alt="Proyecto 3">
+                <div class="overlay">
+                  <p>REACTOR CSTR y PFR</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://www.mt.com/int/en/home/applications/L1_AutoChem_Applications/L2_ReactionAnalysis/continuous-stirred-tank-reactors-cstr.html?cmp=sea_01010123&SE=GOOGLE&Campaign=MT_AC_EN_ROW-MO&Adgroup=CSTR&bookedkeyword=continuous%20stirred%20tank%20reactors&matchtype=p&adtext=560327130691&placement=&network=g&kclid=_k_Cj0KCQjwgLOiBhC7ARIsAIeetVD8VBeImewJyRW3PhlHDPbGsWTBRsO_QdszeV3nED8FAhnJVLseP84aArHTEALw_wcB_k_&gclid=Cj0KCQjwgLOiBhC7ARIsAIeetVD8VBeImewJyRW3PhlHDPbGsWTBRsO_QdszeV3nED8FAhnJVLseP84aArHTEALw_wcB" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.ingenieriaquimicareviews.com/2020/11/reactores-de-flujo-piston.html" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <button type="button" class="btn btn-info">
+            Ver más proyectos
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </button>
+        </a>
+      </section>
+  
+      <!-- Articulos -->
+      <section class="articulos justify-content-start">
+        <h2 class="seccion-titulo texto-negro">Artículos</h2>
+        <div class="card">
+          <div class="card-header">
+            Más recientes
+          </div>
+          <ul class="list-group list-group-flush">
+            <a href="https://www.facet.unt.edu.ar/ingenieriaquimica/servicios/la-ingenieria-quimica/" target="_blank" rel="noopener noreferrer">
+              <li class="list-group-item">
+                Definición de Ingeniería química
+              </li>
+            </a>
+            <a href="https://www.mt.com/mx/es/home/applications/L1_AutoChem_Applications/L2_ReactionAnalysis/continuous-stirred-tank-reactors-cstr.html#:~:text=Un%20reactor%20con%20dep%C3%B3sito%20agitado,de%20esa%20reacci%C3%B3n%20se%20evac%C3%BAa." target="_blank" rel="noopener noreferrer">
+              <li class="list-group-item">
+                Reactor CSTR
+              </li>
+            </a>
+            <a href="https://www.ub.edu/oblq/oblq%20castellano/evaporacio_fona.html" target="_blank" rel="noopener noreferrer">
+              <li class="list-group-item">
+                ¿Qué es evaporación?
+              </li>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <li class="list-group-item">
+                ¿Por qué la ingeniería química es tan importante en la industria?
+              </li>
+            </a>
+          </ul>
+        </div>
+        <a href="https://sintesis.com.mx/puebla/2020/08/12/ingenieros-quimicos-juegan-papel-fundamental-la-industria-farmaceutica/" target="_blank" rel="noopener noreferrer">
+          <button type="button" class="btn btn-info">
+            MÁS INFORMACIÓN
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </button>
+        </a>
+      </section>
+
+<!--Testimonios--><!--Descripcion-->
+<section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Descripcion</h2>
+    <h3 class="seccion-descripcion">Descripcion de proyectos</h3>
+
+<!--Carrusel--> <!--Cambiar las fotos y alt-->
+ <!-- Carrusel -->
+ <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="IMAGENES/Mi testimonio.jpeg" alt="Foto de Yeimy">
+          <p class="testimonio-texto">Para el estar dentro del mundo de la ingeniería es descubrir cosas nuevas que puedes crear, innovar e implementar</p>
+          <div class="testimonio-info">
+            <p class="cliente">Yeimy Morales Díaz</p>
+            <p class="cargo">Estudiante de I.Q</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="IMAGENES/testiminio 1.jpeg" alt="Foto de Djorkaeff">
+          <p class="testimonio-texto">Las ingenierias son materiales importantes en la vida, nos ayudan a diseñar con presición todo aquello que queramos crear o innovar.</p>
+          <div class="testimonio-info">
+            <p class="cliente">Djorkaeff</p>
+            <p class="cargo">Arquitecto</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="IMAGENES/testiminio 2.jpeg" alt="Foto de Andres Ivan">
+          <p class="testimonio-texto">Yo como Ing en procesos, aseguro que la ingenieria quimica es una parte escencial en el áre industrial.</p>
+          <div class="testimonio-info">
+            <p class="cliente">Ivan</p>
+            <p class="cargo">Ingeniero en procesos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</section>
+
+<!--contacto-->
+<section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+            <div class="row">
+                <div class="col-12 col-md-4 seccion-titulo">
+                    ¡Hablemos!
+                </div>
+                <div class="col-12 col-md-4 descripcion">
+                    ¡Contactame para saber más!
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="https://wa.link/r5rwhz">
+                        <button type="button">
+                            Contacto
+                        <i class="bi bi-envelope-check-fill"></i>
+                        </button>
+                    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<!--pie de pagina (footer)--><!--Cambiar imagen de logo-->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="IMAGENES/descarga.png" alt="logo del portafolio">
+    <p class="footer-texto text-center">Aprende conceptos basicos sobre I.Q</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://www.facebook.com/YeimyMorales03?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-twitter"></i>
+        </a>
+      
+    <a href="https://instagram.com/yeimy_morales15?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+    </a>
+    </div>
+    <div class="derechos-de-autor">Creado por Yeimy Morales Díaz</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="main.js"></script>
+
+
+</body>
+</html>
